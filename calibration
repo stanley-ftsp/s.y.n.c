@@ -8610,12 +8610,12 @@ function RoClothes(Player)
 		},
 		["◈ Zomber"] = {
 			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(161.196,140),
-				["LeftArmColor3"] = Color3.fromRGB(161.196,140),
-				["RightArmColor3"] = Color3.fromRGB(161.196,140),
-				["LeftLegColor3"] = Color3.fromRGB(161.196,140),
-				["RightLegColor3"] = Color3.fromRGB(161.196,140),
-				["TorsoColor3"] = Color3.fromRGB(161.196,140),
+				["HeadColor3"] = Color3.fromRGB(161,196,140),
+				["LeftArmColor3"] = Color3.fromRGB(161,196,140),
+				["RightArmColor3"] = Color3.fromRGB(161,196,140),
+				["LeftLegColor3"] = Color3.fromRGB(161,196,140),
+				["RightLegColor3"] = Color3.fromRGB(161,196,140),
+				["TorsoColor3"] = Color3.fromRGB(161,196,140),
 			},
 			["Accessory"] = {
 				15974899548,
