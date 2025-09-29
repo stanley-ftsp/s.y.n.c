@@ -8193,21 +8193,7 @@ function RoClothes(Player)
 	local Bundle = {
 		["nil"] = "nil",
 		["Bald"] = {},
-		["!Brown 1"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7284085462,
-				6441537838,
-			}
-		},
-		["!Brown Long"] = {
+		["Test"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
 				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8222,7 +8208,7 @@ function RoClothes(Player)
 				6472725579
 			}
 		},
-		["Black"] = {
+		["Black 1"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
 				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8235,6 +8221,20 @@ function RoClothes(Player)
 				7392396295,
 				7863333749,
 				7675263201
+			}
+		},
+		["Brown 1"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7284085462,
+				6441537838,
 			}
 		},
 		["Black 2"] = {
@@ -8303,6 +8303,85 @@ function RoClothes(Player)
 				8923597159
 			}
 		},
+		["White 1"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7240955578, 
+				9244453644,
+				9240826224,
+				8275349855,
+				9241889306
+			}
+		},
+		["White 2"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				8082861034,
+				8089294103,
+				8089443065
+			}
+		},
+		["White With Hat 1"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7175904988,
+				7214725742,
+				9008202379
+			}
+		},
+		["White With Hat 2"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				8207715434, 
+				7175904988,
+				6216526940
+			}
+		},
+		["White 3"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7240955578,
+				9244453644,
+				8275349855, 
+				9241889306,
+				9240826224
+			}
+		},
 		["Black 6"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8366,6 +8445,82 @@ function RoClothes(Player)
 				10001005299
 			}
 		},
+		["Black Fade Green"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				10661041028,
+				11387061216, 
+				7280442851
+			}
+		},
+		["White 4"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7222659174,
+				12726002629,
+				10088463133,
+				7628287080
+			}
+		},
+		["White 5"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				6475395916,
+				7063887536,
+				8652761405
+			}
+		},
+		["White Mix Pink"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7486035624,
+				8275245292,
+				8614911363
+			}
+		},
+		["Black Mix Red"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				9731173784,
+				11050607388,
+				11405828721
+			}
+		},
 		["Black 10"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8399,175 +8554,6 @@ function RoClothes(Player)
 				9571729576
 			}
 		},
-		["Black Fade Green"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				10661041028,
-				11387061216, 
-				7280442851
-			}
-		},
-		["Black Mix Red"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				9731173784,
-				11050607388,
-				11405828721
-			}
-		},
-		["1 White 1"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7240955578, 
-				9244453644,
-				9240826224,
-				8275349855,
-				9241889306
-			}
-		},
-		["2 White 2"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				8082861034,
-				8089294103,
-				8089443065
-			}
-		},
-		["3 White 3"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7240955578,
-				9244453644,
-				8275349855, 
-				9241889306,
-				9240826224
-			}
-		},
-		["4 White  4"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7222659174,
-				12726002629,
-				10088463133,
-				7628287080
-			}
-		},
-		["5 White 5"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				6475395916,
-				7063887536,
-				8652761405
-			}
-		},
-		["6 White 6"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7259147441,
-				7733302642
-			}
-		},
-		["7 White With Hat 1"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7175904988,
-				7214725742,
-				9008202379
-			}
-		},
-		["8 White With Hat 2"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				8207715434, 
-				7175904988,
-				6216526940
-			}
-		},
-		["9 White Mix Pink"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
-				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
-				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
-			},
-			["Accessory"] = {
-				7486035624,
-				8275245292,
-				8614911363
-			}
-		},
 		["Red"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8581,6 +8567,20 @@ function RoClothes(Player)
 				6842683595, 
 				6840001710, 
 				8031588258
+			}
+		},
+		["White 6"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightArmColor3"] = Color3.fromRGB(255, 204, 153),
+				["LeftLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["RightLegColor3"] = Color3.fromRGB(255, 204, 153),
+				["TorsoColor3"] = Color3.fromRGB(255, 204, 153),
+			},
+			["Accessory"] = {
+				7259147441,
+				7733302642
 			}
 		},
 		["Sportsy"] = {
@@ -8610,12 +8610,12 @@ function RoClothes(Player)
 		},
 		["◈ Zomber"] = {
 			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(161,196,140),
-				["LeftArmColor3"] = Color3.fromRGB(161,196,140),
-				["RightArmColor3"] = Color3.fromRGB(161,196,140),
-				["LeftLegColor3"] = Color3.fromRGB(161,196,140),
-				["RightLegColor3"] = Color3.fromRGB(161,196,140),
-				["TorsoColor3"] = Color3.fromRGB(161,196,140),
+				["HeadColor3"] = Color3.fromRGB(161.196,140),
+				["LeftArmColor3"] = Color3.fromRGB(161.196,140),
+				["RightArmColor3"] = Color3.fromRGB(161.196,140),
+				["LeftLegColor3"] = Color3.fromRGB(161.196,140),
+				["RightLegColor3"] = Color3.fromRGB(161.196,140),
+				["TorsoColor3"] = Color3.fromRGB(161.196,140),
 			},
 			["Accessory"] = {
 				15974899548,
@@ -8628,13 +8628,39 @@ function RoClothes(Player)
 				["Shirt"] = 18803499372,
 				["Pants"] = 18803497711
 			},
+			["TClothes"] = {
+				["Shirt"] = 2596233697,
+				["Pants"] = 18803497711
+			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(120,144,130),
 		},
-		["◈ Goobers Noobie"] = {
+		["◈ Noobie"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(245,205,48),
 				["LeftArmColor3"] = Color3.fromRGB(245,205,48),
@@ -8648,13 +8674,17 @@ function RoClothes(Player)
 				9245252619,
 				9186049302,
 				8531201872,
+				15411286872,
 				15311252227,
 				16281670509,
-				15411286872,
 				14569332766,
-				127355444856394
+				12996620426,
 			},
 			["Clothes"] = {
+				["Shirt"] = 116924489387871,
+				["Pants"] = 18802882537
+			},
+			["TClothes"] = {
 				["Shirt"] = 116924489387871,
 				["Pants"] = 18802882537
 			},
@@ -8662,9 +8692,31 @@ function RoClothes(Player)
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(13,105,172),
 		},
-		["◈ Mummy Noob"] = {
+		["◈ Noobie Mummy"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(245,205,48),
 				["LeftArmColor3"] = Color3.fromRGB(245,205,48),
@@ -8686,11 +8738,37 @@ function RoClothes(Player)
 				["Shirt"] = 109782981560323,
 				["Pants"] = 70863254937492
 			},
+			["TClothes"] = {
+				["Shirt"] = 109782981560323,
+				["Pants"] = 70863254937492
+			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(13,105,172),
 		},
 		["◈ Bzz Bzz"] = {
 			["Body Color"] = {
@@ -8718,16 +8796,42 @@ function RoClothes(Player)
 				18398723452
 			},
 			["Clothes"] = {
-				["Shirt"] = 11380029789,
+				["Shirt"] = 10879797558,
 				["Pants"] = 10121768222
+			},
+			["TClothes"] = {
+				["Shirt"] = 10879797558,
+				["Pants"] = 6058291588
 			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(150,90,25),
 		},
-		["◈ Tiger Sharkie"] = {
+		["◈ Tiger Shark!"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(137,136,150),
 				["LeftArmColor3"] = Color3.fromRGB(137,136,150),
@@ -8749,13 +8853,39 @@ function RoClothes(Player)
 				["Shirt"] = 14506308850,
 				["Pants"] = 18782785209
 			},
+			["TClothes"] = {
+				["Shirt"] = 13713669273,
+				["Pants"] = 13713671950
+			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(91,93,105),
 		},
-		["◈ White Sharkie"] = {
+		["◈ White Shark!"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(242,243,246),
 				["LeftArmColor3"] = Color3.fromRGB(242,243,246),
@@ -8781,13 +8911,91 @@ function RoClothes(Player)
 				["Shirt"] = 124168883367472,
 				["Pants"] = 117877811889519
 			},
+			["TClothes"] = {
+				["Shirt"] = 96353444941752,
+				["Pants"] = 118203593802508
+			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(207,226,247),
 		},
-		["▣ FBHooter"] = {
+		["◇ McD Bunny!"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(248,248,248),
+				["LeftArmColor3"] = Color3.fromRGB(248,248,248),
+				["RightArmColor3"] = Color3.fromRGB(248,248,248),
+				["LeftLegColor3"] = Color3.fromRGB(248,248,248),
+				["RightLegColor3"] = Color3.fromRGB(248,248,248),
+				["TorsoColor3"] = Color3.fromRGB(248,248,248),
+			},
+			["Accessory"] = {
+				17274655265,
+				17257616304,
+				106973874258375,
+				73017861526482,
+				17571982274
+			},
+			["Clothes"] = {
+				["Shirt"] = 104801244112425,
+				["Pants"] = 134500438529708
+			},
+			["TClothes"] = {
+				["Shirt"] = 127156578389725,
+				["Pants"] = 88873621034420
+			},
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(10,20,10),
+		},
+		["▣ Hooters"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(233,183,146),
 				["LeftArmColor3"] = Color3.fromRGB(233,183,146),
@@ -8808,45 +9016,45 @@ function RoClothes(Player)
 				101713811923176,
 				13780601082,
 				16229887618,
-				138487201723102
+				138487201723
 			},
 			["Clothes"] = {
 				["Shirt"] = 18418593585,
-				["Pants"] = 18786892588
+				["Pants"] = 18786892588,
+			},
+			["TClothes"] = {
+				["Shirt"] = 18418593585,
+				["Pants"] = 18786892588,
 			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(205,140,105),
 		},
-		["▣ McD's OC :3"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(248,248,248),
-				["LeftArmColor3"] = Color3.fromRGB(248,248,248),
-				["RightArmColor3"] = Color3.fromRGB(248,248,248),
-				["LeftLegColor3"] = Color3.fromRGB(248,248,248),
-				["RightLegColor3"] = Color3.fromRGB(248,248,248),
-				["TorsoColor3"] = Color3.fromRGB(248,248,248),
-			},
-			["Accessory"] = {
-				17274655265,
-				17257616304,
-				107769318961484,
-				73017861526482,
-				17571982274
-			},
-			["Clothes"] = {
-				["Shirt"] = 104801244112425,
-				["Pants"] = 88873621034420
-			},
-			["Clothing"] = {
-				"Roblox Breasts Clothing",
-				"Roblox Shirt",
-				"Roblox Pants",
-			}
-		},
-		["▣ Anubis Sweat OC"] = {
+		["▣ Scimitar Sweat"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(205,140,105),
 				["LeftArmColor3"] = Color3.fromRGB(205,140,105),
@@ -8876,11 +9084,37 @@ function RoClothes(Player)
 				["Shirt"] = 18324825236,
 				["Pants"] = 18324824554
 			},
+			["TClothes"] = {
+				["Shirt"] = 18324825236,
+				["Pants"] = 18324824554
+			},
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
 				"Roblox Pants",
-			}
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(205,140,105),
 		},
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
