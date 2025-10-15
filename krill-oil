@@ -8193,6 +8193,35 @@ function RoClothes(Player)
 	local Bundle = {
 		["nil"] = "nil",
 		["Bald"] = {},
+		["Player 2 EX"] = {
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Butt Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.4,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 3,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = true,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			}
+		},
 		["Sportsy"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
