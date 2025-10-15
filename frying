@@ -8193,6 +8193,18 @@ function RoClothes(Player)
 	local Bundle = {
 		["nil"] = "nil",
 		["Bald"] = {},
+		["Cliexe"] = {
+			["Preset"] = {
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 3,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+			}
+		},
 		["Sportsy"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
@@ -8369,19 +8381,6 @@ function RoClothes(Player)
 			["Preset"] = {
 				FPerson = true,
 				FPsnap = false,
-			},
-			["IsPreset"] = true
-		},
-		["Cliexe"] = {
-			["Preset"] = {
-				BreastsScale = 0.960,
-				ButtsScale = 0.975,
-				LegsScale = 0.975,
-				BreastsType = 3,
-				TorsoType = 3,
-				ArmType = 2,
-				LegsType = 3,
-				ButtType = 1,
 			},
 			["IsPreset"] = true
 		},
