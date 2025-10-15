@@ -8321,11 +8321,6 @@ function RoClothes(Player)
 		-- Presets --
 		["!Click Execute!"] = {
 			["Preset"] = {
-				Tone = "Dark"
-				BodyPartPhysics = true,
-				PhysicsObeyGravity = true,
-				PositionPhysicsMultiply = 1.2,
-				RotationPhysicsMultiply = 3.8,
 				BreastsScale = 0.960,
 				ButtsScale = 0.975,
 				LegsScale = 0.975,
@@ -8334,11 +8329,6 @@ function RoClothes(Player)
 				ArmType = 2,
 				LegsType = 3,
 				ButtType = 1,
-				HardcoreHP = false,
-				TopHP = 50,
-				BottomHP = 50,
-				DamageSFX = "5",
-				Volume = 1.2,
 			},
 			["IsPreset"] = true
 		},
