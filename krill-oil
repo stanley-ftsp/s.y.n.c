@@ -8981,19 +8981,8 @@ function RoClothes(Player)
 		},
 		-- Presets --
 		["P2X"] = {
-			["Clothing"] = {
-				"Roblox Breasts Clothing",
-				"Roblox Shirt",
-				"Roblox Butt Shirt",
-				"Roblox Pants",
-			},
 			["Preset"] = {
 				Tone = "Dark",
-				Face = false,
-				BodyPartPhysics = true,
-				PhysicsObeyGravity = true,
-				PositionPhysicsMultiply = 1.4,
-				RotationPhysicsMultiply = 3.8,
 				BreastsScale = 0.960,
 				ButtsScale = 0.975,
 				LegsScale = 0.975,
@@ -9002,7 +8991,6 @@ function RoClothes(Player)
 				ArmType = 2,
 				LegsType = 3,
 				ButtType = 1,
-				HardcoreHP = true,
 				TopHP = 50,
 				BottomHP = 50,
 				DamageSFX = "5",
