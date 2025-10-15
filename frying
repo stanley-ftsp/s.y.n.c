@@ -8200,7 +8200,6 @@ function RoClothes(Player)
 				"Roblox Pants",
 			},
 			["Preset"] = {
-				Tone = "Use Dark",
 				BodyPartPhysics = true,
 				PhysicsObeyGravity = true,
 				PositionPhysicsMultiply = 1.2,
